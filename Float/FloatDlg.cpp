@@ -518,11 +518,11 @@ void CFloatDlg::OnLButtonUp(UINT nFlags, CPoint point)
 
 	if (iconreg==ICONREG_ONE)
 	{
-		ShellExecute(NULL, _T("open"), _T("explorer.exe"), _T("http://mail.160.com/"), NULL, SW_SHOW);
+		ShellExecute(NULL, _T("open"), _T("explorer.exe"), _T("http://mail.qq.com/"), NULL, SW_SHOW);
 	}
 	else if (iconreg == ICONREG_TWO)
 	{
-		ShellExecute(NULL, _T("open"), _T("explorer.exe"), _T("http://corp.160.com/intro"), NULL, SW_SHOW);
+		ShellExecute(NULL, _T("open"), _T("explorer.exe"), _T("http://github.com"), NULL, SW_SHOW);
 	}
 	else if (iconreg == ICONREG_THREE)
 	{
